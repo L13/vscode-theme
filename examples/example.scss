@@ -1,0 +1,142 @@
+/* Import */
+
+@import 'file.css';
+
+$variable-a: Verdana, sans-serif;
+$variable-b: 30px;
+$variable-c: 'value';
+
+test-namespace {
+	display: inline-block;
+	float: right; // Warning
+	width: 0;
+}
+
+test-namespace-2 {
+	// Warning
+}
+
+@media screen {
+	
+	#id .class:not(div) * [value=test] h1::after #{'test'} {
+		background: transparent;
+		font-family: Verdana, sans-serif;
+		width: 100% !important;
+		height: 20px;
+		display: block;
+		cursor: default;
+		background: url('#{$path}/path.png') 0 ($variable-a * 3) no-repeat #ffffff;
+		opacity: 0.5;
+		transition: 0.5s;
+	}
+	
+	[value="test"] {
+		margin: 0 0 0 0;
+	}
+	
+}
+
+$variable-a: map-merge((
+	a: "test",
+	b: 2px,
+	c: blue,
+	d: rgb(0, 0, 0),
+), (
+	a: (
+		a: "test",
+		b: 2px,
+		c: blue,
+		d: rgb(0, 0, 0),
+	)
+));
+
+$variable-b: (
+	a: (
+		a: "test",
+		b: 2px,
+		c: blue,
+		d: rgb(0, 0, 0),
+	),
+	
+	'$a': (
+		background-image: none,
+	)
+);
+
+// Function
+
+/// Bla bla bla ...
+/// 
+/// @group test
+/// @param {mixed} $value - Accepts a value.
+/// @returns {mixed} Returns a value.
+
+@function test ($value) {
+	
+	@return $value;
+	
+}
+
+ul {
+	li {
+		&.class {
+			color: test(#ffffff);
+			
+			@media screen {
+				
+			}
+		}
+		
+		#{if(null, $a, $b)} {
+			padding: 0 0 0 0;
+		}
+	}
+}
+
+//	Mixin
+
+@mixin border-radius ($radius) {
+	
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+		  
+}
+
+.box {
+	@include border-radius(10px);
+}
+
+//	Extend
+
+.message {
+	border: 1px solid #cccccc;
+	padding: 10px;
+	cursor: default;
+	color: #333;
+}
+
+.success {
+	@extend .message;
+	border-color: green;
+}
+
+.error {
+	@extend .message;
+	border-color: red;
+}
+
+.warning {
+	@extend .message;
+	border-color: yellow;
+}
+
+@keyframes test {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="ie7 lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="ie8 lt-ie10 lt-ie9"><![endif]-->
+<!--[if IE 9]><html class="ie9 lt-ie10"><![endif]-->
+<!--[if gt IE 9]><!--><html class="w3c"><!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<style>
+			
+			body {
+				margin: 0;
+				padding: 0;
+				text-align: center;
+			}
+			
+			div.container {
+				margin: auto 0;
+				text-align: left;
+			}
+			
+		</style>
+		<script>
+			
+			function welcome () {
+				
+				alert('Welcome to this page!');
+				
+			}
+			
+		</script>
+	</head>
+	<body id="test" onload="welcome();" onclick="this;">
+		<div class="container">
+			<test-namespace></test-namespace>
+			<header>Headline</header>
+			<content>Text &quot;test&quot;</content>
+			<sidebar>
+				<ul>
+					<li><a href="page1.html?a=1&amp;b=2">Link 1</a></li>
+					<li><a href="page1.html">Link 2</a></li>
+					<li><a href="page1.html">Link 3</a></li>
+				</ul>
+			</sidebar>
+			<footer>Copyright</footer>
+		</div>
+	</body>
+</html>

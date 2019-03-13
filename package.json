@@ -1,0 +1,40 @@
+{
+    "name": "l13-theme",
+	"displayName": "L13 Theme",
+	"description": "Slim Dark Theme for Visual Studio Code",
+	"version": "1.0.0",
+    "publisher": "L13RARY",
+    "license": "SEE LICENCE IN LICENCE.md",
+	"homepage": "https://github.com/l13/vscode-theme/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/l13/vscode-theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/l13/vscode-theme/issues"
+	},
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#232323",
+		"theme": "dark"
+	},
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+	"keywords": [
+		"dark",
+		"theme"
+	],
+    "contributes": {
+        "themes": [
+            {
+                "label": "L13",
+                "uiTheme": "vs-dark",
+				"path": "./themes/l13.json"
+            }
+        ]
+    }
+}

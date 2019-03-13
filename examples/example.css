@@ -1,0 +1,39 @@
+/* Comment */
+
+@import 'file.css';
+
+test-namespace {
+	display: inline-block;
+	float: right;
+	width: 0;
+}
+
+test-namespace-2 {
+	
+}
+
+@media screen {
+		
+	#id .class:not(div) * [value='test'] h1::after {
+		width: 100% !important;
+		height: 20px;
+		display: block;
+		cursor: default;
+		background: url('path.png') 0 0 no-repeat #ffffff;
+		color: rgb(0, 0, 0);
+		opacity: 0.5;
+		transition: 0.5s;
+	}
+	
+}
+		
+#id .class:not(div) * [value='test'] h1::after {
+	width: 100% !important;
+	height: 20px;
+	display: block;
+	cursor: default;
+	background: url('path.png') 0 0 no-repeat #ffffff;
+	color: rgb(0, 0, 0);
+	opacity: 0.5;
+	transition: 0.5s;
+}

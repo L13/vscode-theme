@@ -1,0 +1,7 @@
+<<<<<<<
+Changes made on the current branch that is being merged into.
+|||||||
+The common version.
+=======
+Changes made on the incoming branch that is being merged in.
+>>>>>>>

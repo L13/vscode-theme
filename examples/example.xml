@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Comment -->
+<plist version="1.0">
+	<dict attribute="value">
+		<key>name</key>
+		<string>value</string>
+		<key>snippets</key>
+		<array>
+			<dict>
+				<key>snippet</key>
+				<dict>
+					<key>name</key>
+					<string><![CDATA[
+						
+						function test (a, b) {
+						
+							return a < b;
+						
+						};
+						
+					]]></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>snippet</key>
+				<dict>
+					<key>name</key>
+					<string><![CDATA[
+					
+						<iframe src=""></iframe>
+					
+					]]></string>
+				</dict>
+			</dict>
+		</array>
+		<key>name</key>
+		<string>value</string>
+	</dict>
+</plist>
