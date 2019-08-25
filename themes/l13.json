@@ -132,6 +132,7 @@
 		"input.placeholderForeground": "#757677",
 		
 		"inputOption.activeBorder": "#0385d2",
+		"inputOption.activeBackground": "#05507c",
 		
 		"inputValidation.errorBackground": "#313233",
 		"inputValidation.errorBorder": "#f20013",
@@ -174,6 +175,8 @@
 		"merge.currentHeaderBackground": "#4ab04a80",
 		"merge.incomingContentBackground": "#107bd480",
 		"merge.incomingHeaderBackground": "#107bd4c0",
+		
+		"minimap.findMatchHighlight": "#05507c",
 		
 		"notification.background": "#212223",
 		"notification.buttonBackground": "#05507c",

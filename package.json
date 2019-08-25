@@ -2,7 +2,7 @@
     "name": "l13-theme",
 	"displayName": "L13 Theme",
 	"description": "Slim Dark Theme for Visual Studio Code",
-	"version": "1.0.0",
+	"version": "1.1.0",
     "publisher": "L13RARY",
     "license": "SEE LICENCE IN LICENCE.md",
 	"homepage": "https://github.com/l13/vscode-theme/blob/master/README.md",
@@ -19,7 +19,7 @@
 		"theme": "dark"
 	},
     "engines": {
-        "vscode": "^1.32.0"
+        "vscode": "^1.37.0"
     },
     "categories": [
         "Themes"
