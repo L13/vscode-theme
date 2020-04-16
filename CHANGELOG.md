@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "L13 Theme" extension will be documented in this file.
 
-## [1.2.0] - 2019-03-08
+## [1.2.0] - 2019-04-19
 
 ### Added
 - Added color for `activityBar.activeBorder`
