@@ -147,12 +147,12 @@
 		"list.activeSelectionForeground": "#cbcccd",
 		"list.dropBackground": "#05507c",
 		"list.errorForeground": "#f20013",
-		"list.focusBackground": "#05507c",
+		"list.focusBackground": "#414243",
 		"list.focusForeground": "#ffffff",
 		"list.highlightForeground": "#ffffff",
 		"list.hoverBackground": "#05507c",
 		"list.hoverForeground": "#ffffff",
-		"list.inactiveFocusBackground": "#313233",
+		"list.inactiveFocusBackground": "#212223",
 		"list.inactiveSelectionBackground": "#313233",
 		"list.inactiveSelectionForeground": "#cbcccd",
 		"list.invalidItemForeground": "#f20013",
@@ -216,7 +216,7 @@
 		"peekViewTitleDescription.foreground": "#757677",
 		"peekViewTitleLabel.foreground": "#cbcccd",
 		
-		"pickerGroup.border": "#212223",
+		"pickerGroup.border": "#313233",
 		"pickerGroup.foreground": "#757677",
 		
 		"progressBar.background": "#05507c",

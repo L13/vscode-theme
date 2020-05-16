@@ -2,7 +2,6 @@
 .vscode-test/**
 debug/**
 examples/**
-resources/**
 templates/**
 .gitignore
 **/tsconfig.json
