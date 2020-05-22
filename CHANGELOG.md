@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "L13 Theme" extension will be documented in this file.
 
-## [1.2.1] - 2019-05-17
+## [1.2.1] - 2020-05-24
 
 ### Fixed
 - Fixed selection color in quick picker
