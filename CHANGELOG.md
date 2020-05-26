@@ -1,10 +1,11 @@
 # Change Log
 All notable changes to the "L13 Theme" extension will be documented in this file.
 
-## [1.2.2] - 2020-00-07
+## [1.2.2] - 2020-06-07
 
 ### Fixed
 - Fixed selection color in editor widget.
+- Fixed syntax highlighting for `entity.name.type`
 
 ## [1.2.1] - 2020-05-23
 

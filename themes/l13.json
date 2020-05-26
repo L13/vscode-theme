@@ -338,6 +338,7 @@
 			"scope": [
 				"constant.language",
 				"entity.name.tag",
+				"entity.name.type",
 				"keyword.control",
 				"keyword.operator.expression",
 				"keyword.operator.new",
