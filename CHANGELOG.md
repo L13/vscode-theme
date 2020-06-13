@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to the "L13 Theme" extension will be documented in this file.
 
+## [1.2.3] - 2020-06-13
+
+### Fixed
+- Fixed syntax highlighting for classes and types with `cast.expr.ts`.
+
 ## [1.2.2] - 2020-06-07
 
 ### Fixed
