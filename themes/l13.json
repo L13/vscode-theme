@@ -334,11 +334,11 @@
 			}
 		},
 		{
-			"name": "Keywords and XML / HTML Tags",
+			"name": "Keywords, Types and XML / HTML Tags",
 			"scope": [
+				"cast.expr.ts",
 				"constant.language",
 				"entity.name.tag",
-				"entity.name.type",
 				"keyword.control",
 				"keyword.operator.expression",
 				"keyword.operator.new",
