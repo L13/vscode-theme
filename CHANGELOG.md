@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to the "L13 Theme" extension will be documented in this file.
 
+## [1.3.0] - 2020-07-19
+
+### Changed
+- Changed color for `statusBar.debuggingBackground` and `statusBar.debuggingForeground`.
+
 ## [1.2.3] - 2020-06-13
 
 ### Fixed
