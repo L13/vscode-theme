@@ -221,6 +221,10 @@
 		
 		"progressBar.background": "#05507c",
 		
+		"quickInput.list.focusBackground": "#414243",
+		
+		"sash.hoverBorder": "#05507c",
+		
 		"scrollbar.shadow": "#ff000000",
 		
 		"scrollbarSlider.background": "#40414280",

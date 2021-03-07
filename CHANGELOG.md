@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to the "L13 Theme" extension will be documented in this file.
 
+## [1.3.1] - 2021-03-07
+
+### Added
+- Added sash hover border color.
+
+### Fixed
+- Fixed focus background color for quick pick in VS Code 1.54.0.
+
 ## [1.3.0] - 2020-07-19
 
 ### Changed
