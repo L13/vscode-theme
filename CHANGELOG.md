@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to the "L13 Theme" extension will be documented in this file.
 
+## [1.3.2] - 2023-02-26
+
+### Added
+- Added docker and yaml support.
+
+### Fixed
+- Fixed template tag function.
+
 ## [1.3.1] - 2021-03-07
 
 ### Added

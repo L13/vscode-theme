@@ -314,6 +314,9 @@
 			"name": "Identifiers",
 			"scope": [
 				"constant.language.import-export-all",
+				"entity.name.type.class",
+				"entity.name.function.js",
+				"entity.name.function.tagged-template",
 				"entity.other",
 				"meta.embedded.line.ts",
 				"meta.object.member",
@@ -323,11 +326,13 @@
 				"new.expr",
 				"support.constant.json",
 				"support.constant.math",
+				"support.function.js",
 				"support.type.map.key",
 				"support.type.object.module",
 				"support.type.property-name",
 				"support.type.vendored.property-name",
 				"support.variable.object",
+				"support.variable.property",
 				"variable.language.arguments",
 				"variable.other",
 				"variable.parameter",
@@ -348,6 +353,7 @@
 				"keyword.operator.new",
 				"keyword.other.important",
 				"keyword.other.oracle",
+				"keyword.other.special-method.dockerfile",
 				"markup.heading.markdown",
 				"meta.return.type",
 				"meta.type",
@@ -469,11 +475,11 @@
 		{
 			"name": "Numbers, Colors, Units and XML / HTML Attributes",
 			"scope": [
-				"punctuation.definition.list.begin.markdown",
 				"constant.numeric",
 				"constant.other.color",
 				"entity.other.attribute-name",
-				"keyword.other.unit"
+				"keyword.other.unit",
+				"punctuation.definition.list.begin.markdown"
 			],
 			"settings": {
 				"foreground": "#c4bb28"
