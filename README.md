@@ -1,6 +1,6 @@
 # L13 Theme
 
-Slim dark theme with improved syntax highlighting for TypeScript, JavaScript, JSON, Shell Script, SASS, CSS, HTML, XML and Markdown.
+Slim dark theme with improved syntax highlighting for TypeScript, JavaScript, JSON, Shell Script, SASS, CSS, HTML, XML, YAML, Docker and Markdown.
 
 ## Index
 
